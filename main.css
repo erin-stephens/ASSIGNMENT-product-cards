@@ -11,6 +11,9 @@ img {
   height: 200px;
   margin: auto;
 }
+div.card-body {
+  padding: 0;
+}
 .card-img-one {
   width: 150px;
   height: 200px;
@@ -20,18 +23,25 @@ p {
   font-size: 12px;
   margin: 0px;
   font-weight: bold;
+  padding-left: 10px;
 }
 .availability {
   background-color: darkgray;
   color:yellow;
-  width: 100%;
 }
 .card-title {
   margin: auto;
+  padding-top: 10px;
 }
 h5 {
   margin: 5px;
 }
 .valid {
   font-size: 10px;
+}
+.end {
+  width: 100%;
+}
+.card-description {
+  padding-left: 10px;
 }
